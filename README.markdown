@@ -21,3 +21,7 @@ To install, copy the `thousands-separated-filter.rb` file into your Jekyll `_plu
     {{ varname | thousands_separated }}
 
 If `varname` contained "`123456789`", the result would be "`123,456,789`"
+
+    {{ varname | thousands_separated:"." }}
+
+As above, but using a custom thousands-separator.
